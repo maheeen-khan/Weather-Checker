@@ -12,7 +12,7 @@ var season = prompt("ENTER CURRENT WEATHER : \n\n e.g. \n\nHot, \nCold, \nFall, 
         document.write("<div class='card ownClass mx-auto' style='width: 18rem'>" + " <img src='./images/autumn.gif' class='card-img-top'> " + " <div class='card-body'>" + " <h5 class='card-title fall'>It's FALL</h5> " + "  <p class='card-text'>Perfect time for boots and scarves. Layer up for cozy comfort🍁🧣</p> " + "  </div> " + " </div> ");
     }
     else if(season == "Rainy" || season == "rainy" ){
-        document.write("<div class='card ownClass mx-auto' style='width: 18rem'>" + " <img src='./images/rainy.gif' class='card-img-top'> " + " <div class='card-body'>" + " <h5 class='card-title rainy'>It's RAINY Today</h5> " + "  <p class='card-text'>Embrace the coziness of rainy days; it’s a great time for reflection and relaxation.⛈️☔</p> " + "  </div> " + " </div> ");
+        document.write("<div class='card ownClass mx-auto' style='width: 18rem'>" + " <img src='./images/rainy.gif' class='card-img-top'> " + " <div class='card-body'>" + " <h5 class='card-title rainy'>It's Raining</h5> " + "  <p class='card-text'>Embrace the coziness of rainy days; it’s a great time for reflection and relaxation.⛈️☔</p> " + "  </div> " + " </div> ");
     }
     else if(season == "Cloudy" || season == "cloudy" ){
         document.write("<div class='card ownClass mx-auto' style='width: 18rem'>" + " <img src='./images/cloudy.gif' class='card-img-top'> " + " <div class='card-body'>" + " <h5 class='card-title cloudy'>It's CLOUDY Today</h5> " + "  <p class='card-text'>Go for a walk, or bike ride; the cooler temperatures can make for a pleasant outing.☁️⛈️ </p> " + "  </div> " + " </div> ");
