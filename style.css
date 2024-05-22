@@ -3,4 +3,23 @@
 }
 .heading{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #888888;
+}
+.ownClass{
+    box-shadow: 10px 10px 8px #7a7979;
+}
+.fall{
+    color: rgb(121, 13, 13) !important;
+}
+.hot{
+    color: rgb(75, 109, 8) !important;
+}
+.cold{
+    color: rgb(90, 90, 168) !important;
+}
+.rainy{
+    color: rgb(10, 109, 10) !important;
+}
+.cloudy{
+    color: #717070 !important;
 }
